@@ -2,12 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <link rel="stylesheet" href="motor.css">
     <title>City</title>
     
 <script src="js/script.js"></script>
 </head>
-<body>
+
+<div class="caixa">
+<div class="container text-center">
+<h1>Via CEP</h1>
+<body class="texto">
     <label>Cep:</label>
     <input name="cep" type="text" id="cep" value="" size="10" maxlength="9" 
     onblur="PesquisaCEP(this.value)"><br><br>
@@ -28,5 +32,8 @@
     <input name="ibge" type="text" id="ibge" size="8"><br><br>
 
 </body>
-    
+</div>
+
+</div>
 </html>
+

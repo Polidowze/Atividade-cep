@@ -1,0 +1,22 @@
+.texto{
+    text-align: center;
+    margin-top: 10%;
+   border: solid 2px black;
+   width: 25%;
+   height: 25%;
+   align-items: center;
+   color: black;
+   font-size: larger;
+   transform: translate(150%, 0%);
+}
+
+.caixa{
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.945);
+}
+
+body{
+    background-image: url(https://cdn.panrotas.com.br/portal-panrotas-statics/media-files-cache/301818/1bed15144530d66e21558a908e2071ffsergiosouzaajpzmrbas70unsplash/0,174,2560,1528/1206,720,0.16/0/default.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
